@@ -10,7 +10,7 @@ const PORTA = process.env.PORTA || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Rotas
+
 const usuarioRoutes = require("./src/routes/usuarioRoutes");
 const cursoRoutes = require("./src/routes/cursoRoutes");
 
